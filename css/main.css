@@ -13,6 +13,9 @@ h2 {
   text-align: left;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
+  margin: 0 0 1rem;
+  padding: 0;
+  width: 100%;
 }
 
 body {
@@ -21,6 +24,11 @@ body {
   font-style: italic;
   position: absolute;
   margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 img {
@@ -32,5 +40,16 @@ img {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.banner {
+  overflow: hidden;
+  max-height: 500px;
   position: relative;
+}
+
+.contentdiv {
+  left: auto;
+  bottom: .2rem;
+  transform: translateX(-50%);
 }
