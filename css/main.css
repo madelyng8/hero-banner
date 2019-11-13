@@ -28,3 +28,9 @@ img {
   padding-top: 0;
   max-width: 50em;
 }
+
+.img-flex {
+  width: 100%;
+  display: block;
+  position: relative;
+}
